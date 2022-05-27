@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              oceanBlue: "#202938",
+              dodgerBlue: "#427cf9",
+              silver: "#4c5564",
+              ash: "#eff9fe",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body
+    class="main bg-oceanBlue inline-flex justify-center items-center w-screen h-screen text-2xl gap-6 text-ash"
+  >
+    <div class="card1 flex flex-col gap-7 padding-10">
+      <p>Base</p>
+      <p><span class="text-6xl font-semibold">$39</span>/Month</p>
+      <p>
+        For most businesses that want t optimize <br />
+        web queries.
+      </p>
+      <p>
+        <i class="fas fa-check-circle text-dodgerBlue"></i> All limited links
+      </p>
+      <p>
+        <i class="fas fa-check-circle text-dodgerBlue"></i> Own analytics
+        platform
+      </p>
+      <p><i class="fas fa-check-circle text-dodgerBlue"></i> Chat support</p>
+      <p>
+        <i class="fas fa-check-circle text-dodgerBlue"></i> Optimize hashtags
+      </p>
+      <p><i class="fas fa-check-circle text-dodgerBlue"></i> Unlimited users</p>
+      <button class="bg-dodgerBlue p-5 w-full rounded-xl">Choose Plan</button>
+    </div>
+    <div class="card2 flex flex-col gap-7 bg-silver p-10 rounded-t-xl">
+      <p>Base</p>
+      <p><span class="text-6xl font-semibold">$99</span>/Month</p>
+      <p>
+        For most businesses that want t optimize <br />
+        web queries.
+      </p>
+      <p>
+        <i class="fas fa-check-circle text-dodgerBlue"></i> All limited links
+      </p>
+      <p>
+        <i class="fas fa-check-circle text-dodgerBlue"></i> Own analytics
+        platform
+      </p>
+      <p><i class="fas fa-check-circle text-dodgerBlue"></i> Chat support</p>
+      <p>
+        <i class="fas fa-check-circle text-dodgerBlue"></i> Optimize hashtags
+      </p>
+      <p><i class="fas fa-check-circle text-dodgerBlue"></i> Unlimited users</p>
+      <button class="bg-dodgerBlue p-5 w-full rounded-xl">Choose Plan</button>
+    </div>
+  </body>
+</html>
